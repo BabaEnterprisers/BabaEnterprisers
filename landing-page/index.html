@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- CSS -->
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css" />
+  <!-- FONTAWESOME -->
+  <title>Baba Enterprisers</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container flex-row">
+      <div class="header__logo">
+        <img src="assets/img/logo.png" height="40px" alt="Rou" />
+      </div>
+      <nav class="right-nav">
+        <ul class="header__menu flex-row">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+        </ul>
+        <div class="right flex-center">
+          <a href="#contact" class="btn  btn-secondary">Contact</a>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- HEADER -->
+
+  <!-- HERO -->
+  <section id="hero" class="container flex-row">
+    <div class="hero__content" data-aos="fade-right">
+      <h1 class="title" style="color: #e74c3c;">Think Coating Think Baba Enterprisers.</h1>
+      <p class="text">
+        "Revolutionizing Protection: Unleash the Power of Coating Solutions with Baba Enterprisers."
+      </p>
+      <a href="#contact" class="btn btn-primary">Get started</a>
+    </div>
+    <div class="hero__img" data-aos="fade-left">
+      <div id="slide-container">
+        <div class="slide">
+          <img src="assets/img/service1.png" alt="">
+          <div class="caption">sandblasting dust process cleaning</div>
+        </div>
+        <div class="slide">
+          <img src="assets/img/service2.png" alt="">
+          <div class="caption">Steel Structure Building Construction</div>
+        </div>
+        <div class="slide">
+          <img src="assets/img/service3.png" alt="">
+          <div class="caption">Steel Erection</div>
+        </div>
+        <div class="slide">
+          <img src="assets/img/service4.png" alt="">
+          <div class="caption">Structure Coating using Paint spray machine</div>
+        </div>
+        <div class="carousel-dots"></div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094</span>
+        <span class="arrow next" onclick="controller(+1)">&#10095</span>
+      </div>
+      <div class="gradient"></div>
+      <div class="gradient"></div>
+
+  </section>
+  <!-- HERO -->
+
+  <!-- ABOUT -->
+  <section id="about" class="container flex-center flex-column">
+    <h5 class="section-subheading" data-aos="fade-up">About Baba Enterprisers</h5>
+    <h3 class="text-center" data-aos="fade-up">
+      Baba Enterprisers was established in 2008 and is a general contractor offering construction services. We handle
+      various
+      industrial, manufacturing, recreational, commercial projects in all over India. Baba Enterprisers is a leader in
+      providing value-added construction services to our customers by creating a successful partnership with them
+      throughout
+      the construction process. Our pledge is to establish lasting relationships with our customers by exceeding their
+      expectations and gaining their trust through exceptional performance by every member of the construction team.
+    </h3>
+    <h5 class="section-subheading" data-aos="fade-up">Our Mission</h5>
+    <h3 class="text-center" data-aos="fade-up">
+      Committed to quality construction and management services, we prioritize long-term client relationships built on
+      safety,
+      quality, and timely delivery. We treat employees fairly, involving them in the improvement process for responsive
+      and
+      cost-effective work execution.
+    </h3>
+    <div class="features text-center">
+      <div class="feature" style="--color: #fe6786" data-aos="fade-up">
+        <div class="feature__icon">
+          <i class="fa-solid fa-anchor"></i>
+        </div>
+        <h3 class="feature__title">Complete Management of Operations</h3>
+        <p class="feature__text">
+          "At Baba Enterprisers, we're experts in managing operations. Our goal is to help businesses by ensuring
+          efficient
+          operations, careful financial management, and smart strategies. From project execution to gaining valuable
+          insights, our
+          dedicated team ensures a complete approach, helping clients navigate challenges and seize opportunities for
+          growth and
+          success."
+        </p>
+      </div>
+      <div class="feature" style="--color: #5cd8a5" data-aos="fade-up" data-aos-delay="50">
+        <div class="feature__icon">
+          <i class="fa-regular fa-file-lines"></i>
+        </div>
+        <h3 class="feature__title">Construction Overview: Checking Progress</h3>
+        <p class="feature__text">
+          "Baba Enterprisers uses smart construction analysis for better business control. By looking at data, we make
+          projects
+          better, refine finances, and improve how we work. This commitment shows our quick adaptability and leadership
+          in
+          construction."
+        </p>
+      </div>
+      <div class="feature" style="--color: #fea95b" data-aos="fade-up" data-aos-delay="100">
+        <div class="feature__icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <h3 class="feature__title">Business Growth</h3>
+        <p class="feature__text">
+          "At Baba Enterprisers, we focus on growing our business. We innovate, make clients happy, and work
+          excellently. We
+          expand into new markets, use technology, and have a dynamic work culture. This commitment to steady growth
+          keeps Baba
+          Enterprisers strong in the construction industry."
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ABOUT -->
+
+  <!-- SERVICES -->
+  <section id="services" style="
+        background: url(assets/img/services-bg.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 100% 80%;
+      ">
+    <div class="container">
+      <h5 class="section-subheading" style="text-align: center;" data-aos="fade-up">Our Services</h5>
+      <h1 class="text-center" data-aos="fade-up">
+        Solutions for Every Construction Challenge
+      </h1>
+      <div class="services">
+        <div class="service" data-aos="fade-up" data-aos-delay="0">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Mechanical Fabrication and Erection</h3>
+          <p class="service__text">
+            We excel in mechanical fabrication and erection services. Our skilled team ensures precise fabrication of
+            mechanical
+            components and seamless erection of structures. From intricate details to structural integrity, we bring
+            expertise to
+            every step of the process. With a commitment to quality and efficiency, our mechanical fabrication and
+            erection services
+            contribute to the success and durability of construction projects.
+          </p>
+          <!-- <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-delay="50">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Sand, Copper, and Grid Blasting</h3>
+          <p class="service__text">
+            We specialize in sand, copper, and grid blasting services. Our skilled team employs advanced techniques for
+            optimal
+            surface preparation. Whether it's rejuvenating surfaces with sandblasting, enhancing conductivity with
+            copper blasting,
+            or achieving precision with grid blasting, we bring expertise to each project. With a focus on quality and
+            efficiency,
+            our blasting services meet the highest standards, ensuring the success of construction projects.
+          </p>
+          <!-- <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-delay="100">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Enaml, Epoxy & Fire Painting</h3>
+          <p class="service__text">
+            We specialize in enamel, epoxy, and fire painting services. Our dedicated team ensures meticulous
+            application for a
+            durable and vibrant finish. Whether it's adding a protective layer with enamel, creating a resilient surface
+            with epoxy,
+            or implementing fire-resistant coatings, we bring expertise to enhance the visual appeal and safety of your
+            structures.
+            With a focus on precision and quality, our painting services contribute to the overall excellence of
+            construction
+            projects.
+          </p>
+          <!-- <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-delay="150">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Civil Interior & Exterior Painting</h3>
+          <p class="service__text">
+            We offer expert civil interior and exterior painting services. Our skilled team transforms spaces with
+            precision,
+            ensuring a seamless and vibrant finish. Whether it's enhancing interiors for a welcoming atmosphere or
+            protecting
+            exteriors from the elements, we bring expertise to every brushstroke. With a commitment to quality and
+            aesthetics, our
+            painting services contribute to the overall appeal and longevity of your construction projects.
+          </p>
+          <!-- <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-delay="200">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Manpower Supply</h3>
+          <p class="service__text">
+            We provide efficient manpower supply services. Our dedicated team ensures timely and skilled deployment to
+            meet your
+            project needs. Whether you require skilled labor for construction or specialized roles, we deliver a
+            reliable and
+            capable workforce. With a commitment to meeting your manpower requirements, we contribute to the seamless
+            execution of
+            your projects, ensuring success and efficiency in every endeavor.
+          </p>
+          <!-- <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+        <div class="service" data-aos="fade-up" data-aos-delay="250">
+          <div class="service__icon">
+            <img src="assets/img/mechanical.png" alt="" />
+          </div>
+          <h3 class="service__title">Mechanical Maintanance Work</h3>
+          <p class="service__text">
+            We specialize in efficient mechanical maintenance work. Our skilled team ensures the smooth functioning and
+            longevity of
+            mechanical systems. Whether it's routine upkeep or addressing specific issues, we bring expertise to every
+            maintenance
+            task. With a focus on reliability and precision, our mechanical maintenance services contribute to the
+            optimal
+            performance of your equipment, minimizing downtime and enhancing operational efficiency.
+            <!-- </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SERVICES -->
+
+  <!-- PROJECTS -->
+  <section id="projects" style="
+    background: url(assets/img/projects-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  ">
+    <div class="container">
+      <h5 class="section-subheading" data-aos="fade-up">Our Projects</h5>
+      <h2 class="section-heading" data-aos="fade-up">
+        Check the real innovation of problem-solving
+      </h2>
+      <div class="projects">
+        <!-- Project 0 -->
+        <div class="project project5" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture0.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">KEC INTERNATIONAL- Grasim Industry Project, Mysuru</h3>
+            <p><strong>Category: </strong>Building & Factory</p>
+            <p><strong>Client Name: </strong>: KEC Inbternational</p>
+            <p><strong>Nature of Work: </strong>Structural Painting & Cupper Slag Blasting</p>
+            <p><strong>Location:</strong> Chamrajnagar, Mysuru, Banglore
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>Grasim Industries Limited to Invest Rs. 731.79 crore on a Decorative Paint Project at Chamarajanagar
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 1 -->
+        <div class="project project1" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture1.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">L & T TRCL Project, Jayanthipuram, Andhrapradesh</h3>
+            <p><strong>Category: </strong>Building & Factory</p>
+            <p><strong>Client Name: </strong>L & T</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Kumaraswamy Raja Nagar, Jayanthipuram, Jaggayyapeta, Krishna, Andhra Pradesh,
+              521457
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>TThe Ramco Cement have commissioned the Line III of Jayanthipuram Plant, with a clinker manufacturing
+                capacity of 1.50
+                Million Tonnes Per Annum,”</p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project project2" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture2.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">KEC INTERNATIONAL-MY HOME PROJECT, TELENGANA</h3>
+            <p><strong>Category: </strong>Building & Factory</p>
+            <p><strong>Client Name: </strong>TKEC Inbternational</p>
+            <p><strong>Nature of Work: </strong>Structural Painting & Cupper Slag Blasting</p>
+            <p><strong>Location:</strong> Mellacheruvu, Nalgonda, Telangana, 508246
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>MHIPL is one of the largest producers of cement in the Andhra Pradesh &
+                Telangana States.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project project3" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture3.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">SAFDARJUNG AIRPORT- NKG INFRASTRUCTURE PROJECT</h3>
+            <p><strong>Category: </strong>Building</p>
+            <p><strong>Client Name: </strong>NKG Infrastructure</p>
+            <p><strong>Nature of Work: </strong>Cupper Slag Blasting & Structural Fire Painting</p>
+            <p><strong>Location:</strong> Sri Aurobindo Marg, Safdarjung Airport Area, New Delhi, Delhi 110003
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>The construction project quietly in the works in the capital that’s far removed from public outcry: the
+                civil aviation
+                ministry’s “combined operational offices” at Safdarjung airport.
+                These new offices will house the Directorate General of Civil Aviation, the Airports Economic Regulatory
+                Authority of
+                India, the Aircraft Accident Investigation Bureau, the Bureau of Civil Aviation and Security, and the
+                Airports Authority
+                of India, in one building, in a built-up area of 70,940 sq metres. The project is estimated to cost Rs
+                302
+                crore.
+                Safdarjung airport, located 11.6 km from the Indira Gandhi International Airport, currently houses
+                several
+                offices, like
+                that of the AAI in Rajiv Gandhi Bhavan, and operates its runway primarily for VVIPs. Its view has been
+                blocked off from
+                the flyover on Aurobindo Marg, with fencing covering construction activities on the grounds.
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project project4" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture4.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">L & T- Ultratec's Project, Palli, Rajastan</h3>
+            <p><strong>Category: </strong>Buildings & Factry</p>
+            <p><strong>Client Name: </strong>L & T</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Veer Durga Das Nagar, Pali, Rajasthan, 306401
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>UltraTech's New Greenfield Unit in Pali, Rajasthan Invest RS.1,850 Crore
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project project5" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture5.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">L & T- Ultratec,s Project, Palli, Rajastan</h3>
+            <p><strong>Category: </strong>Building & Factory</p>
+            <p><strong>Client Name: </strong>L & T</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Veer Durga Das Nagar, Pali, Rajasthan, 306401
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>UltraTech's New Greenfield Unit in Pali, Rajasthan Invest RS.1,850 Crore
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 6 -->
+        <div class="project project6" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture6.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">L & T- Ramco, Haridaspur, Jajpur Project:</h3>
+            <p><strong>Category: </strong>Buildings & Factry</p>
+            <p><strong>Client Name: </strong>L & T</p>
+            <p><strong>Nature of Work: </strong>Structure Fabrication, Erection & Painting</p>
+            <p><strong>Location:</strong> Haridaspur, Jajpur
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>The Ramco Cements has commenced the work to expand its Haridaspur cement grinding unit capacity from
+                0.90
+                million tpa to
+                1.80 million tpa (Line-II) by installating an additional cement mill of 165 tph capacity in Jajpur
+                district of Odisha.
+
+                The Line-II will spread over an area of 24.55 acres of land parcel.
+
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Project 7 -->
+        <div class="project project7" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture7.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">GDCL- Rungta Mines Project Limited, Dhenkanal</h3>
+            <p><strong>Category: </strong>Steel Factry</p>
+            <p><strong>Client Name: </strong>GDCL</p>
+            <p><strong>Nature of Work: </strong>Structure Fabrication & Erection</p>
+            <p><strong>Location:</strong> Near Revti Medical Store, Corien Bypass Road, Dhenkanal, Odisha 759013
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>The expansion of Rungta Mines Limited's Integrated Steel Plant from the proposed capacity of 2.85
+                million
+                tonne per
+                annum capacity to 7.55 million tonne per annum by adding capacity of 4.7 million tonne per annum at an
+                investment of
+                ₹11,001 crore to be set up at Jharbandh in Dhenkanal district. This will generate potential employment
+                opportunities for
+                over 6,200 persons, he said.
+                The expansion of Rungta Mines Limited's Steel Plant capacity from 0.53 million tonne per annum to 3
+                million tonne per
+                annum at an investment of ₹7,920 crore to be set up at Karakhendra in Keonjhar district, will also
+                generate employment
+                opportunities for over 5,134 persons.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project project1" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture8.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">Petron Engineering Pvt. Ltd Project- Bhushan Steel Dhenkanal</h3>
+            <p><strong>Category: </strong>Steel Factry</p>
+            <p><strong>Client Name: </strong>Petron Engineering Pvt. Ltd</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Thelkoloi, Lapanga, Rengoli, Dhenkanal, Orissa 768232
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>Not given
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- project 9 -->
+        <div class="project project2" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture9.png" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">Rukmani Infra Project, NINL,Jajpur</h3>
+            <p><strong>Category: </strong>Steel & Iron Factory</p>
+            <p><strong>Client Name: </strong>Rukmani Infra Project</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Kalinganagar, Duburi, Dist-Jajpur, Orissa
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>Neelachal Ispat Nigam Limited (NINL), a company promoted by MMTC Ltd, Industrial Promotion and
+                Investment
+                Corporation of
+                Orissa limited . (IPICOL) and other government agencies has set up an 1.1 million ton Integrated Iron
+                and
+                steel plant at
+                Kalinganagar, Duburi, Dist-Jajpur, Orissa. NINL has its own captive power plant to meet the internal
+                power
+                requirement
+                and air separation unit for producing oxygen, nitrogen and argon . NINL is having own captive iron ore
+                mines which is
+                under development.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- project 10 -->
+        <div class="project project3" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture10.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">Gorakhpur Construction-NTPC, Angul</h3>
+            <p><strong>Category: </strong> Power Plant</p>
+            <p><strong>Client Name: </strong>Gorakhpur Construction</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Talcher Thermal, Angul Odisha, Talcher, Odisha 759101
+            </p>
+            <div class="salient-feature">
+              <p><strong>Salient Features: </strong></p>
+              <p>NTPC is India’s largest power utility with an installed capacity of 73,824 MW (including JVs), plans to
+                become a 130 GW
+                company by 2032. Established in 1975, NTPC aims to be the world’s largest and best power major.
+                NTPC has comprehensive Rehabilitation & Resettlement and CSR policies well integrated with its core
+                business of setting
+                up power projects and generating electricity. The company is committed to generating reliable power at
+                competitive
+                prices in a sustainable manner by optimising the use of multiple energy sources with innovative
+                eco-friendly
+                technologies thereby NTPC is contributing to the economic development of the nation and upliftment of
+                the
+                society.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- project-11 -->
+        <div class="project project4" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture11.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">TATA Steel-BSL, Dhenkanal Project</h3>
+            <p><strong>Category: </strong> Steel Plant</p>
+            <p><strong>Client Name: </strong>TATA STEEL</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Narendra Pur P.O, Shibapur, Dhenkanal, Odisha 759121
+            </p>
+          </div>
+        </div>
+
+        <!-- project-12 -->
+        <div class="project project5" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture12.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">JSW Kolkata Project</h3>
+            <p><strong>Category: </strong> Cement Plant</p>
+            <p><strong>Client Name: </strong>JSW</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Location : Salboni, Kolkata, West Bengal
+            </p>
+          </div>
+        </div>
+        <!-- project-13 -->
+        <div class="project project6" data-aos="fade-right">
+          <div class="project__img">
+            <img src="assets/img/Picture13.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">GMR Power Plant, Dhenkanal</h3>
+            <p><strong>Category: </strong>Power Plant</p>
+            <p><strong>Client Name: </strong>GMR</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Kamalanga, Dhenkanal, Orissa, India, 759121
+            </p>
+          </div>
+        </div>
+        <!-- project-14 -->
+        <div class="project project7" data-aos="fade-left">
+          <div class="project__img">
+            <img src="assets/img/Picture14.jpg" alt="" />
+          </div>
+          <div class="project__content">
+            <h3 class="project__category">MGM, Meramandali, Dhenkanal Project</h3>
+            <p><strong>Category: </strong>Steel Plant</p>
+            <p><strong>Client Name: </strong>MGM</p>
+            <p><strong>Nature of Work: </strong>Structural Painting</p>
+            <p><strong>Location:</strong> Meramandali, Dhenkanal
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PROJECTS -->
+
+  <!-- CLIENTS -->
+
+  <section id="clients" class="our-clients">
+    <div class="container">
+      <h5 class="section-subheading" style="text-align: center;" data-aos="fade-up">Our Clients</h5>
+      <h1 class="text-center" data-aos="fade-up">
+        Solutions for Every Construction Challenge
+      </h1>
+      <div class="all-clients" data-aos="fade-left">
+        <div class="client-logo">
+          <img src="/assets/img/L&T.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/Tata-Steel-logo-1.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/ramco.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/bhushan-logo.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/petron.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/mahaCement.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/nkg.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/kec.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/gannon.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/gaar.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/ultratech.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/jsw.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/bandr.png" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/rungta.jpg" alt="Client 1 Logo">
+        </div>
+        <div class="client-logo">
+          <img src="/assets/img/mgm.png" alt="Client 1 Logo">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CLIENTS -->
+
+
+
+  <!-- TESTIMONIALS -->
+  <!-- <section id="testimonials" style="
+        background: url(assets/img/testimonials-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 100%;
+      ">
+    <div class="container flex-row" data-aos="zoom-out">
+      <div class="testimonials-wrapper">
+        <p class="quotes"><i class="fas fa-quote-left"></i></p>
+        <p class="section-subheading">testimonial</p>
+        <div class="testimonials">
+          <div class="testimonial">
+            <h1 class="testimonial__title">They are awesome!</h1>
+            <p class="testimonial__text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam voluptatum, quibusdam, quia, quod voluptates dolorum
+              quos voluptatibus quae voluptate quibusdam, quia, quod
+              voluptates dolorum quos voluptatibus quae voluptate.
+            </p>
+            <div class="testimonial__author">
+              <h3>John Doe</h3>
+              <p>Web Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-navigation">
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="testimonials__img">
+        <img src="assets/img/testimonials.png" alt="" />
+      </div>
+    </div>
+  </section> -->
+  <!-- TESTIMONIALS -->
+
+  <!-- CONTACT -->
+  <section id="contact" style="
+        background: url(assets/img/contact-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+      ">
+    <div class="container">
+      <h2 class="section-subheading text-center" data-aos="fade-up">
+        Contact Us
+      </h2>
+      <h4 class="section-heading text-center right left" data-aos="fade-up">
+        Stay Connected Always.
+      </h4>
+      <div class="contact">
+        <form action="" class="contact-form" data-aos="fade-right">
+          <h1>Write us a message</h1>
+          <input type="text" id="name" placeholder="Your Name" required />
+          <input type="email" id="email" placeholder="Your Email" required />
+          <input type="text" id="subject" placeholder="Subject" required />
+          <textarea rows="5" id="message" required></textarea>
+
+          <button class="btn btn-primary" onclick="sendEmail()">Send Message</button>
+        </form>
+        <div class="contact-details" data-aos="fade-left">
+          <p class="text">
+            Stay seamlessly connected with us for any inquiries, assistance, or information. We are here to address your
+            needs
+            promptly and professionally.
+
+          </p>
+          <div class="details">
+            <div class="detail">
+              <div class="detail__icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="detail__content">
+                <h4>Phone</h4>
+                <p>+91 9937366749</p>
+              </div>
+            </div>
+            <div class="detail">
+              <div class="detail__icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="detail__content">
+                <h4>Email</h4>
+                <p>hello@gmail.com</p>
+              </div>
+            </div>
+            <div class="detail">
+              <div class="detail__icon" style="width: 50px;">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="detail__content">
+                <h4>Address</h4>
+                <div>
+                  <h5 style="margin: 0;">Corporate Office:</h5>
+                  <p>At-Mangalpur, Po-Kusupanga,Via-Meramandali,Dist-Dhenkanal, State-Odisha</p>
+                </div>
+                <div>
+                  <h5 style="margin: 0;">Head Office:</h5>
+                  <p>Plot No: 531, Gandhi Marg road, Near DAV public School, Angul-759122</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="gradient-2"></div>
+  </section>
+  <!-- CONTACT -->
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer__bottom">
+        <div class="footer__bottom-icons">
+          <p>Follow us</p>
+          <a href="#" class="facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p>&copy; 2023 BabaEnterprisers. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER -->
+
+  <!-- FONTAWESOME -->
+  <script src="assets/js/fontawesome.min.js"></script>
+  <!-- FONTAWESOME -->
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- SCRIPTS -->
+  <script src="assets/js/script.js"></script>
+  <!-- SCRIPTS -->
+  <!-- Silk slider -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js'></script>
+  <script>
+    function sendEmail() {
+      // Initialize Email.js with your public key
+      emailjs.init("aMSkUZESuSu2anAF9");
+
+      var templateParams = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        subject: document.getElementById('subject').value,
+        message: document.getElementById('message').value
+      };
+      console.log(templateParams)
+      // Send email using your private key
+      emailjs.send("service_8vfv5ze", "template_poad6ra", templateParams)
+        .then(function (response) {
+          console.log("Email sent successfully:", response);
+          alert("Email sent successfully!");
+        }, function (error) {
+          console.log("Email failed to send:", error);
+          alert("Error sending email. Please try again later.");
+        });
+    }
+  </script>
+</body>
+
+</html>
